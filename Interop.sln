@@ -18,6 +18,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hello4_DLL", "Hello4_DLL\He
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hello4_CLR", "Hello4_CLR\Hello4_CLR.vcxproj", "{F22774C0-7997-40E9-9D55-D279974EBAB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello4_CSharp", "Hello4_CSharp\Hello4_CSharp.csproj", "{63E0D017-5FDB-4A61-A725-2568F6EE8FD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -98,6 +100,16 @@ Global
 		{F22774C0-7997-40E9-9D55-D279974EBAB0}.Release|Win32.ActiveCfg = Release|Win32
 		{F22774C0-7997-40E9-9D55-D279974EBAB0}.Release|Win32.Build.0 = Release|Win32
 		{F22774C0-7997-40E9-9D55-D279974EBAB0}.Release|x86.ActiveCfg = Release|Win32
+		{63E0D017-5FDB-4A61-A725-2568F6EE8FD6}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{63E0D017-5FDB-4A61-A725-2568F6EE8FD6}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{63E0D017-5FDB-4A61-A725-2568F6EE8FD6}.Debug|Win32.ActiveCfg = Debug|x86
+		{63E0D017-5FDB-4A61-A725-2568F6EE8FD6}.Debug|x86.ActiveCfg = Debug|x86
+		{63E0D017-5FDB-4A61-A725-2568F6EE8FD6}.Debug|x86.Build.0 = Debug|x86
+		{63E0D017-5FDB-4A61-A725-2568F6EE8FD6}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{63E0D017-5FDB-4A61-A725-2568F6EE8FD6}.Release|Mixed Platforms.Build.0 = Release|x86
+		{63E0D017-5FDB-4A61-A725-2568F6EE8FD6}.Release|Win32.ActiveCfg = Release|x86
+		{63E0D017-5FDB-4A61-A725-2568F6EE8FD6}.Release|x86.ActiveCfg = Release|x86
+		{63E0D017-5FDB-4A61-A725-2568F6EE8FD6}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

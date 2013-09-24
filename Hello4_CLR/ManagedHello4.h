@@ -1,7 +1,7 @@
 #pragma once
 #include "..\Hello4_DLL\Hello4_DLL.h"
 
-#pragma comment(lib, "..\Debug\Hello4_DLL.lib")
+#pragma comment(lib, "..\\Debug\\Hello4_DLL.lib")
 
 namespace cliwrapperhello4
 {

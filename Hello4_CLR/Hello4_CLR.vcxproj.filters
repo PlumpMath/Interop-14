@@ -18,16 +18,13 @@
     <ClInclude Include="ManagedHello4.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SimpleMarshal.h">
+    <ClInclude Include="SimpleMarshal.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ManagedHello4.cpp">
       <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="SimpleMarshal.cpp">
-      <Filter>头文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

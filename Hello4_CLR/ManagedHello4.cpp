@@ -1,4 +1,6 @@
 #include "ManagedHello4.h"
+#include "SimpleMarshal.hpp"
+
 using namespace cliwrapperhello4;
 
 ManagedHello4::ManagedHello4(void)
@@ -8,12 +10,12 @@ ManagedHello4::ManagedHello4(void)
 
 ManagedHello4::~ManagedHello4()
 {
-	delete(pHello);
+	delete(pHello4);
 	pHello4 = 0;
 }
 
 
-void ManagedHello4::SayThis()
+void ManagedHello4::SayThis(System::String ^phrase)
 {
-	pHello4->SayThis();
+	pHello4->SayThis(SimpleMarshal::to(phrase));
 }
